@@ -12,7 +12,6 @@ function randomRGB() {
   return RGBColor
 }
 
-
 // Die Funktion auf die verschiedenen Farb-Variablen übertragen 
 function build () {
   color_one = randomRGB(); color_two = randomRGB(); color_three = randomRGB();
@@ -96,3 +95,5 @@ function reset (){
 build ()
 console.log("Der Gewinnerwert ist: " + winner_color)
 document.getElementById("ScoreDiv").innerHTML = ("SCORE: " + score)
+
+
