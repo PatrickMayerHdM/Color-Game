@@ -1,0 +1,104 @@
+body {
+  background-color: #5C4B51;
+  text-align: center;
+}
+
+.Content {
+  display: inline-block;
+  background-color: #8CBEB2;
+  font-family: monospace;
+  width: 80%;
+  border-radius: 20px;
+  padding: 20px;
+
+}
+
+.Top {
+  display: inline-block;
+  background-color: #F2EBBF;
+  border-radius: 20px;
+  width: 90%;
+}
+
+#BottomField{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.Guess {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+
+.Bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Box {
+  width: 160px;
+  height: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: white;
+}
+
+.Box:hover {
+  cursor: pointer;
+  width: 170px;
+  height: 110px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#one #two #three #four #five #six{ 
+  background-color: rgb(156, 6, 156);
+}
+
+#BottomField {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 12px;
+}
+
+.BottomFieldVal {
+  width: 140px;
+  color: white;
+
+  border-style: solid;
+  border-radius: 4px;
+  border-color: white;
+  border-width: 3px;
+
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#FarbenNeuLaden:hover, #reset_button:hover{
+  cursor: pointer;
+}
+
+#reset_button{
+  background-color: rosybrown;
+}
+
+#FarbenNeuLaden{
+  background-color: rosybrown;
+}
+
+#ScoreDiv{
+  background-color: #8CBEB2;
+}

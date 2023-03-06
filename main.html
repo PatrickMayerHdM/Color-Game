@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Color Game</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+
+<body>
+  <div class="Content">
+
+    <div class="Top" id="TopField">
+      <h1 class="Guess"> Guess the Color</h1>
+
+      <div class="Value">
+        <p>The RGB Code: <span id="Values">rgb(000,000,000)</span></p>
+      </div>
+
+      <p>Here are You're Options:</p>
+
+    </div>
+
+    
+    <div class="Bottom">
+      <button onclick="g1()" class="Box" id="one"> </button>
+      <button onclick="g2()" class="Box" id="two"> </button>
+      <button onclick="g3()" class="Box" id="three"> </button>
+      <button onclick="g4()" class="Box" id="four"> </button>
+      <button onclick="g5()" class="Box" id="five"> </button>
+      <button onclick="g6()" class="Box" id="six"> </button>
+      
+    </div>
+
+    <div class="Top" id="BottomField">
+      <button onclick="reset()" id="reset_button" class="BottomFieldVal"> RESET </button>
+      <div class="BottomFieldVal" id="ScoreDiv"> SCORE: </div>
+      <button onclick="reload()" id="FarbenNeuLaden" class="BottomFieldVal"> RELOAD </button>
+    </div>
+
+    <script src="JavaScript.js" async="True"></script>
+  </div>
+</body>
